@@ -11,7 +11,7 @@ setuptools.setup(
     description='Ramachandran plotting tool',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/alxdrcirilo/RamachanDraw',
+    url='https://github.com/Verinikita/Ramachandran',
     packages=['RAMACHANDRAN'],
     package_data={'RAMACHANDRAN': ['./density_estimate.dat']},
     install_requires=[
