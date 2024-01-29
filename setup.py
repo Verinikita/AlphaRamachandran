@@ -7,11 +7,11 @@ setuptools.setup(
     name='RAMACHANDRAN',
     version='0.2.4',
     author='VB',
-    author_email='VB@gmail.com',
+    author_email='vb@gmail.com',
     description='Ramachandran plotting tool',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/Verinikita/Ramachandran',
+    url='https://github.com/Verinikita/RAMA.git',
     packages=['RAMACHANDRAN'],
     package_data={'RAMACHANDRAN': ['./density_estimate.dat']},
     install_requires=[
