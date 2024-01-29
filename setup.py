@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/Verinikita/RAMA.git',
     packages=['RAMACHANDRAN'],
-    package_data={'RAMACHANDRAN': ['./density_estimate.dat']},
+    package_data={'RAMACHANDRAN': ['data/density_estimate.dat']},
     install_requires=[
         'biopython>=1.75',
         'matplotlib>=3.1.2',
