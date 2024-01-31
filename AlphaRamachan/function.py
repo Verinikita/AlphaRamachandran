@@ -158,6 +158,6 @@ def plot(pdb_file, cmap='viridis', alpha=0.75, dpi=100, save=True, show=False, o
 
     # Return params
     if batch_mode:
-        return ax, file_output_map
+        return ax, None #file_output_map
     else:
-        return ax, output
+        return ax, None #output
