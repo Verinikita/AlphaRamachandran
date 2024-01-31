@@ -4,18 +4,19 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='RAMACHANDRAN',
+    name='AlphaRamachandran',
     version='0.2.4',
     author='VB',
-    author_email='vb@gmail.com',
+    author_email='verronicabaronetto@gmail.com',
     description='Ramachandran plotting tool',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/Verinikita/AlphaRamachandran.git',
-    packages=['RAMACHANDRAN'],
-    package_data={'RAMACHANDRAN': ['data/density_estimate.dat']},
+    packages=['AlphaRamachandran'],
+    package_data={'AlphaRamachandran': ['data/density_estimate.dat']},
     install_requires=[
         'biopython>=1.75',
+        'Biopython>=1.75',
         'matplotlib>=3.1.2',
         'rich>=9.3'
     ],
