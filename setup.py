@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='AlphaRamachandran',
+    name='AlphaRamachan',
     version='0.2.5',
     author='Verinikita',
     author_email='verronicabaronetto@gmail.com',
@@ -12,8 +12,8 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/Verinikita/AlphaRamachandran.git',
-    packages=['AlphaRamachandran'],
-    package_data={'AlphaRamachandran': ['data/density_estimate.dat']},
+    packages=['AlphaRamachan'],
+    package_data={'AlphaRamachan': ['data/density_estimate.dat']},
     install_requires=[
         'biopython>=1.75',
         'Biopython>=1.75',
