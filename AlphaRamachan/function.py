@@ -1,11 +1,3 @@
-!pip install matplotlib
-!pip install Biopython
-!pip install typing
-#!pip install math
-!pip install pkg-resources
-!pip install numpy
-!pip install rich
-
 
 ######FETCH
 from Bio.PDB import PDBList
@@ -118,7 +110,7 @@ def plot(pdb_file, cmap='viridis', alpha=0.75, dpi=100, save=True, show=False, o
     #Z = np.fromfile(resource_stream('RamachanDraw', '/content/RamachanDraw/data/density_estimate.dat'))
     #Z = np.reshape(Z, (100, 100))
 
-    Z = np.fromfile("./AlphaRamachan/data/density_estimate.dat")
+    Z = np.fromfile("./AlphaRamachandran/data/density_estimate.dat")
     Z = np.reshape(Z, (100, 100))
 
     ax.set_aspect('equal')
