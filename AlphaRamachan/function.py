@@ -78,7 +78,7 @@ from pkg_resources import resource_stream
 from math import pi
 
 
-def plot(pdb_file, cmap='viridis', alpha=0.75, dpi=100, save=True, show=False, out='plot.png'):
+def plot(pdb_file, cmap='magma', alpha=0.75, dpi=100, save=True, show=False, out='plot.png'):
     batch_mode = isinstance(pdb_file, list)
 
     def get_ignored_res(file: str):
