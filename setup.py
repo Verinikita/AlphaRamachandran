@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='AlphaRamachan',
-    version='0.2.5',
+    version='0.2.4',
     author='Verinikita',
     author_email='verronicabaronetto@gmail.com',
     description='Ramachandran plotting tool',
@@ -16,7 +16,7 @@ setuptools.setup(
     package_data={'AlphaRamachan': ['data/density_estimate.dat']},
     install_requires=[
         'biopython>=1.75',
-        'Biopython>=1.75',
+        
         'matplotlib>=3.1.2',
         'rich>=9.3'
     ],
