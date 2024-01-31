@@ -82,14 +82,14 @@ Herein you will find an example from the PDB id corresponding to the ATP-competi
 
 ```
 from AlphaRamachandran.AlphaRamachan.function import plot
-plot(7lxp)
+plot(7xlp)
 ```
 
 ```
 from RamachanDraw import fetch, phi_psi, plot
 
 # PDB id to be downloaded
-PDB_id = '1MBN'
+PDB_id = '7xlp'
 
 # Drawing the Ramachandran plot
 plot(fetch(PDB_id))
