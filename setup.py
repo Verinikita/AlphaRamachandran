@@ -5,8 +5,8 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='AlphaRamachandran',
-    version='0.2.4',
-    author='VB',
+    version='0.2.5',
+    author='Verinikita',
     author_email='verronicabaronetto@gmail.com',
     description='Ramachandran plotting tool',
     long_description=long_description,
