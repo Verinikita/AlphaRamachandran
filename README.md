@@ -98,5 +98,13 @@ plot(fetch(PDB_id))
 # And returning the ignored aminoacid residues
 phi_psi_dict, ignored_res = phi_psi(fetch(PDB_id), return_ignored=True)
 ```
-
-
+##Previously install the required packages
+```
+!pip install matplotlib
+!pip install Biopython
+!pip install typing
+#!pip install math
+#!pip install pkg-resources
+!pip install numpy
+!pip install rich
+```
