@@ -12,7 +12,7 @@ Clone the github proyect and run in colab.
 ```
 !git clone https://github.com/Verinikita/AlphaRamachandran.git
 ```
-you can run it from google collaborative by clicking on the button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/https://colab.research.google.com/github/Verinikita/Prueba/blob/main/Ramaf.ipynb)
+you can run it from google collaborative by clicking on the button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Verinikita/Prueba/blob/main/Ramaf.ipynb)
 
 ## Usage
 
